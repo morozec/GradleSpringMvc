@@ -1,9 +1,4 @@
 package home.staff.entities;
-
-
-
-import org.springframework.data.annotation.Id;
-
 import javax.persistence.*;
 import java.io.Serializable;
 
@@ -25,4 +20,6 @@ public class Person implements Serializable {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+
+    public Person() {}
 }
