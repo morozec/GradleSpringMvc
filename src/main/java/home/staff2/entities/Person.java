@@ -1,4 +1,4 @@
-package home.staff.entities;
+package home.staff2.entities;
 import javax.persistence.*;
 import java.io.Serializable;
 

@@ -1,7 +1,7 @@
-package home.staff.controllers;
+package home.staff2.controllers;
 
-import home.staff.entities.Person;
-import home.staff.repositories.PersonRepository;
+import home.staff2.entities.Person;
+import home.staff2.repositories.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

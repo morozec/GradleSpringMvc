@@ -1,10 +1,8 @@
-package home.staff.repositories;
+package home.staff2.repositories;
 
-import home.staff.entities.Person;
+import home.staff2.entities.Person;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
-import java.util.List;
 
 @Repository
 public interface PersonRepository extends JpaRepository<Person, Long> {

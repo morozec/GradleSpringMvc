@@ -1,4 +1,4 @@
-package home.staff.controllers;
+package home.staff2.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
